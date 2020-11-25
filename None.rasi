@@ -1,0 +1,21 @@
+configuration {
+ modi: "window,drun,ssh,combi";
+ width: 100;
+ lines: 2;
+ columns: 9;
+ bw: 0;
+ location: 1;
+ line-padding: 1;
+ line-margin: 0;
+ separator-style: "";
+ hide-scrollbar: true;
+ disable-history: true;
+ font: "mono 10";
+ theme: "solarized";
+ font: "hack 10";
+ combi-modi: "window,drun,ssh";
+ color-window: "#222222, #222222, #b1b4b3";
+ color-normal: "#222222, #b1b4b3, #222222, #005577, #b1b4b3";
+ color-active: "#222222, #b1b4b3, #222222, #007763, #b1b4b3";
+ color-urgent: "#222222, #b1b4b3, #222222, #77003d, #b1b4b3";
+ }
